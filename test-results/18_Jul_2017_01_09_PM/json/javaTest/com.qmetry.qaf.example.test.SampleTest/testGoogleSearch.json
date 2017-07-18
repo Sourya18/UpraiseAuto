@@ -1,0 +1,96 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.google.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3361
+    },
+    {
+      "commandName": "searchFor",
+      "args": [
+        "[qaf github infostretch]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 0.043885692642547935-1",
+          "subLogs": [],
+          "duration": 826
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"0.043885692642547935-1\",\"value\":[\"qaf github infostretch\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 936
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnG, using=name}"
+          ],
+          "result": "id: 0.043885692642547935-2",
+          "subLogs": [],
+          "duration": 138
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnG",
+            "{\"id\":\"0.043885692642547935-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 224
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=qaf, using=partial link text}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=qaf, using=partial link text}"
+      ],
+      "result": "[id: 0.043885692642547935-3, id: 0.043885692642547935-4, id: 0.043885692642547935-5, id: 0.043885692642547935-6, id: 0.043885692642547935-7, id: 0.043885692642547935-8]",
+      "subLogs": [],
+      "duration": 979
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "search for 'qaf github infostretch'",
+      "type": "TestStepPass",
+      "duration": 2223,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected By.partialLinkText: qaf present : Actual By.partialLinkText: qaf present",
+      "type": "Pass",
+      "screenshot": "../img/testGoogleSearch_1etae4dehouzq30699.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

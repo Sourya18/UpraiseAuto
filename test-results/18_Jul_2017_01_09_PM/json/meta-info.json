@@ -1,0 +1,13 @@
+{
+  "name": "UpRaise",
+  "status": "pass",
+  "tests": [
+    "javaTest"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1500383413188,
+  "endTime": 1500383430017
+}

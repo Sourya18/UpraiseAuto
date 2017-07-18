@@ -1,0 +1,29 @@
+{
+  "reports": [
+    {
+      "name": "UpRaise",
+      "dir": "test-results/18_Jul_2017_01_11_PM/json",
+      "startTime": 1500384146091
+    },
+    {
+      "name": "UpRaise",
+      "dir": "test-results/18_Jul_2017_01_09_PM/json",
+      "startTime": 1500383413188
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/18_Jul_2017_10_09_AM/json",
+      "startTime": 1500373126927
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/18_Jul_2017_10_09_AM/json",
+      "startTime": 1500373008877
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/18_Jul_2017_10_06_AM/json",
+      "startTime": 1500372464002
+    }
+  ]
+}
