@@ -1,0 +1,145 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1573
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://upraise-jira7.amoeboids.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 21504
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=os_username, using=name}"
+      ],
+      "result": "id: 0.7527973683905462-1",
+      "subLogs": [],
+      "duration": 87
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: os_username",
+        "{\"id\":\"0.7527973683905462-1\",\"value\":[\"admin\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 469
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=os_password, using=name}"
+      ],
+      "result": "id: 0.7527973683905462-2",
+      "subLogs": [],
+      "duration": 231
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: os_password",
+        "{\"id\":\"0.7527973683905462-2\",\"value\":[\"Password@123\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 541
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=login, using=name}"
+      ],
+      "result": "id: 0.7527973683905462-3",
+      "subLogs": [],
+      "duration": 84
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: login",
+        "{\"id\":\"0.7527973683905462-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 182
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 54
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "[id: 0.9572317302556794-1]",
+      "subLogs": [],
+      "duration": 48172
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "id: 0.9572317302556794-1",
+      "subLogs": [],
+      "duration": 119
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.id: upraise_menu",
+        "{\"id\":\"0.9572317302556794-1\"}"
+      ],
+      "result": "getElementText:UpRaise",
+      "subLogs": [],
+      "duration": 101
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "id: 0.9572317302556794-1",
+      "subLogs": [],
+      "duration": 59
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.id: upraise_menu",
+        "{\"id\":\"0.9572317302556794-1\"}"
+      ],
+      "result": "getElementText:UpRaise",
+      "subLogs": [],
+      "duration": 50
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected link text should be UpRaise : Actual link text is UpRaise",
+      "type": "Pass",
+      "screenshot": "../img/upraiselogin_1op1h9b5sj2hk50970.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="pass"><span class="pass-label">P </span>Expected link text should be UpRaise : Actual link text is UpRaise <a href="../img/upraiselogin_1gryl1w3jo0bi46121.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Add Individual Objective 'Auto I Objective'</div><div  class="pass"><span class="pass-label">P </span>Expected container text should be New objective added successfully. If it is not visible please check your filters. : Actual container text is New objective added successfully. If it is not visible please check your filters. <a href="../img/AddIobjective_32dho5l54fra46122.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Add Team Objective 'Auto T Objective' <a href="../img/AddTobjective_1rer74zfiuscq46123.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Sourya', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Sourya\AppData\Local\Temp\scoped_dir2156_10859}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18dd2cdc050d6da2e5d243902771f493</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="UpRaise" duration-ms="97549" started-at="2017-07-19T05:01:21Z" finished-at="2017-07-19T05:02:58Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="UpServerTest.AddIobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="AddIobjective" class="com.upraise.server.test.UpServerTest"/>
+        <method signature="UpServerTest.AddTobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="AddTobjective" class="com.upraise.server.test.UpServerTest"/>
+        <method signature="UpServerTest.upraiselogin(java.util.Map)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="upraiselogin" class="com.upraise.server.test.UpServerTest"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Server Test" duration-ms="97549" started-at="2017-07-19T05:01:21Z" finished-at="2017-07-19T05:02:58Z">
+      <class name="com.upraise.server.test.UpServerTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setupSuit" is-config="true" duration-ms="100" started-at="2017-07-19T10:31:21Z" finished-at="2017-07-19T10:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setupTest" is-config="true" duration-ms="3" started-at="2017-07-19T10:31:21Z" finished-at="2017-07-19T10:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setup" is-config="true" duration-ms="4" started-at="2017-07-19T10:31:21Z" finished-at="2017-07-19T10:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setupMethod" is-config="true" duration-ms="2" started-at="2017-07-19T10:31:21Z" finished-at="2017-07-19T10:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upraise.server.test.UpServerTest.upraiselogin(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="upraiselogin(java.util.Map)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="upraiselogin" duration-ms="55438" started-at="2017-07-19T10:31:21Z" description="Login test" finished-at="2017-07-19T10:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@123, isValid=true, username=admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="pass"><span class="pass-label">P </span>Expected link text should be UpRaise : Actual link text is UpRaise <a href="../img/upraiselogin_1gryl1w3jo0bi46121.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- upraiselogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-07-19T10:32:16Z" finished-at="2017-07-19T10:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=upraiselogin status=SUCCESS method=UpServerTest.upraiselogin(java.util.Map)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="pass"><span class="pass-label">P </span>Expected link text should be UpRaise : Actual link text is UpRaise <a href="../img/upraiselogin_1gryl1w3jo0bi46121.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setupMethod" is-config="true" duration-ms="2" started-at="2017-07-19T10:32:16Z" finished-at="2017-07-19T10:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upraise.server.test.UpServerTest.AddIobjective()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="AddIobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="AddIobjective" duration-ms="16693" started-at="2017-07-19T10:32:16Z" description="Add Individual Objective" finished-at="2017-07-19T10:32:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Add Individual Objective 'Auto I Objective'</div><div  class="pass"><span class="pass-label">P </span>Expected container text should be New objective added successfully. If it is not visible please check your filters. : Actual container text is New objective added successfully. If it is not visible please check your filters. <a href="../img/AddIobjective_32dho5l54fra46122.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddIobjective -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-07-19T10:32:33Z" finished-at="2017-07-19T10:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddIobjective status=SUCCESS method=UpServerTest.AddIobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Add Individual Objective 'Auto I Objective'</div><div  class="pass"><span class="pass-label">P </span>Expected container text should be New objective added successfully. If it is not visible please check your filters. : Actual container text is New objective added successfully. If it is not visible please check your filters. <a href="../img/AddIobjective_32dho5l54fra46122.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-19T10:32:33Z" finished-at="2017-07-19T10:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upraise.server.test.UpServerTest.AddTobjective()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="AddTobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="AddTobjective" duration-ms="21210" started-at="2017-07-19T10:32:33Z" description="Add Team Objective" finished-at="2017-07-19T10:32:54Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Sourya', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Sourya\AppData\Local\Temp\scoped_dir2156_10859}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18dd2cdc050d6da2e5d243902771f493]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Sourya', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Sourya\AppData\Local\Temp\scoped_dir2156_10859}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18dd2cdc050d6da2e5d243902771f493
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at com.qmetry.qaf.automation.step.CommonStep.sendKeys(CommonStep.java:128)
+	at com.upraise.server.steps.StepsLibrary.addteamobjective_aroundBody4(StepsLibrary.java:44)
+	at com.upraise.server.steps.StepsLibrary$AjcClosure5.run(StepsLibrary.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.upraise.server.steps.StepsLibrary.addteamobjective(StepsLibrary.java:39)
+	at com.upraise.server.test.UpServerTest.AddTobjective(UpServerTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:805)
+	at org.testng.TestRunner.run(TestRunner.java:655)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Add Team Objective 'Auto T Objective' <a href="../img/AddTobjective_1rer74zfiuscq46123.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Sourya', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Sourya\AppData\Local\Temp\scoped_dir2156_10859}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18dd2cdc050d6da2e5d243902771f493</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddTobjective -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-19T10:32:55Z" finished-at="2017-07-19T10:32:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddTobjective status=FAILURE method=UpServerTest.AddTobjective()[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Add Team Objective 'Auto T Objective' <a href="../img/AddTobjective_1rer74zfiuscq46123.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Sourya', ip: '192.168.1.113', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\Sourya\AppData\Local\Temp\scoped_dir2156_10859}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 18dd2cdc050d6da2e5d243902771f493</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-19T10:32:55Z" finished-at="2017-07-19T10:32:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterTest" is-config="true" duration-ms="3253" started-at="2017-07-19T10:32:55Z" finished-at="2017-07-19T10:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.upraise.server.test.UpServerTest@bdb505]" name="afterSuit" is-config="true" duration-ms="4" started-at="2017-07-19T10:32:58Z" finished-at="2017-07-19T10:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@153e23f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.upraise.server.test.UpServerTest -->
+    </test> <!-- Server Test -->
+  </suite> <!-- UpRaise -->
+</testng-results>

@@ -35,10 +35,9 @@ For any inquiry or need additional information, please contact support-qaf@infos
 			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
 		</classes>
 	</test>
-	<test name="java Test" enabled="true">
+	<test name="Server Test" enabled="true">
 		<classes>
-			<class name="com.upraise.test.UpServerTest"></class>
+			<class name="com.upraise.server.test.UpServerTest"></class>
 		</classes>
 	</test>
-
 </suite>

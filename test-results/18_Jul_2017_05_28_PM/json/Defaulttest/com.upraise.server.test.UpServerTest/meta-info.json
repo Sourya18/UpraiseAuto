@@ -1,0 +1,61 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "Password@123",
+          "isValid": "true",
+          "username": "admin"
+        }
+      ],
+      "metaData": {
+        "name": "upraiselogin",
+        "groups": [
+          "SMOKE"
+        ],
+        "description": "Login test"
+      },
+      "dependsOn": [],
+      "startTime": 1500401287974,
+      "duration": 166871,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "name": "AddIobjective",
+        "groups": [
+          "SMOKE"
+        ],
+        "description": "Add Individual Objective"
+      },
+      "dependsOn": [],
+      "startTime": 1500401455059,
+      "duration": 41151,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "name": "AddTobjective",
+        "groups": [
+          "SMOKE"
+        ],
+        "description": "Add Team Objective"
+      },
+      "dependsOn": [],
+      "startTime": 1500401496291,
+      "duration": 21542,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

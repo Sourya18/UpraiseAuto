@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [UpRaise]">
-  <test name="java Test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UpRaise]">
+  <test name="Smoke Test(failed)">
     <classes>
-      <class name="com.upraise.test.UpServerTest">
+      <class name="com.upraise.server.test.UpServerTest">
         <methods>
-          <include name="AddIobjective"/>
-          <include name="upraiselogin"/>
+          <include name="AddTobjective"/>
           <include name="afterSuit"/>
           <include name="setupMethod"/>
-          <include name="AddTobjective"/>
           <include name="setupSuit"/>
           <include name="setupTest"/>
           <include name="afterClass"/>
-          <include name="setup"/>
+          <include name="AddIobjective"/>
+          <include name="upraiselogin"/>
           <include name="afterMethod"/>
+          <include name="setup"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.upraise.test.UpServerTest -->
+      </class> <!-- com.upraise.server.test.UpServerTest -->
     </classes>
-  </test> <!-- java Test(failed) -->
+  </test> <!-- Smoke Test(failed) -->
 </suite> <!-- Failed suite [UpRaise] -->

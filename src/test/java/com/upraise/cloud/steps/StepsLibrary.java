@@ -1,4 +1,4 @@
-package com.upraise.steps;
+package com.upraise.cloud.steps;
 
 import static com.qmetry.qaf.automation.step.CommonStep.click;
 import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;

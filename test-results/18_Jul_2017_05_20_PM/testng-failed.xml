@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UpRaise]">
+  <test name="Somke Test">
+    <classes>
+      <class name="com.upraise.server.test.UpServerTest"/>
+    </classes>
+  </test> <!-- Somke Test -->
+  <test name="Somke Test(failed)">
+    <classes>
+      <class name="com.upraise.server.test.UpServerTest">
+        <methods>
+          <include name="AddTobjective"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="AddIobjective"/>
+          <include name="upraiselogin" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.upraise.server.test.UpServerTest -->
+    </classes>
+  </test> <!-- Somke Test(failed) -->
+</suite> <!-- Failed suite [UpRaise] -->

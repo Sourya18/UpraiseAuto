@@ -1,0 +1,14 @@
+{
+  "name": "UpRaise",
+  "status": "unstable",
+  "tests": [
+    "ServerTest",
+    "CloudTest"
+  ],
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1500402123120,
+  "endTime": 1500402232370
+}

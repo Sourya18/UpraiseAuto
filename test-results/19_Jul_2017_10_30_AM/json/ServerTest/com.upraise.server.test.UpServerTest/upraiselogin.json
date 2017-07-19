@@ -1,0 +1,171 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1392
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://upraise-jira7.amoeboids.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11980
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[admin, Password@123, null]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=os_username, using=name}"
+          ],
+          "result": "id: 0.1781684021807448-1",
+          "subLogs": [],
+          "duration": 173
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: os_username",
+            "{\"id\":\"0.1781684021807448-1\",\"value\":[\"admin\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 464
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=os_password, using=name}"
+          ],
+          "result": "id: 0.1781684021807448-2",
+          "subLogs": [],
+          "duration": 186
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: os_password",
+            "{\"id\":\"0.1781684021807448-2\",\"value\":[\"Password@123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 306
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login, using=name}"
+          ],
+          "result": "id: 0.1781684021807448-3",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login",
+            "{\"id\":\"0.1781684021807448-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 302
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 73
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "[id: 0.8021689201750799-1]",
+      "subLogs": [],
+      "duration": 25194
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "id: 0.8021689201750799-1",
+      "subLogs": [],
+      "duration": 183
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.id: upraise_menu",
+        "{\"id\":\"0.8021689201750799-1\"}"
+      ],
+      "result": "getElementText:UpRaise",
+      "subLogs": [],
+      "duration": 167
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=upraise_menu, using=id}"
+      ],
+      "result": "id: 0.8021689201750799-1",
+      "subLogs": [],
+      "duration": 93
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.id: upraise_menu",
+        "{\"id\":\"0.8021689201750799-1\"}"
+      ],
+      "result": "getElementText:UpRaise",
+      "subLogs": [],
+      "duration": 89
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Details for login {username} , {password}",
+      "type": "TestStepPass",
+      "duration": 1823,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected link text should be UpRaise : Actual link text is UpRaise",
+      "type": "Pass",
+      "screenshot": "../img/upraiselogin_1gryl1w3jo0bi46121.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

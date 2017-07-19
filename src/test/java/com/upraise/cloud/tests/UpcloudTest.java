@@ -1,23 +1,23 @@
-package com.upraise.test;
+package com.upraise.cloud.tests;
 
 import static com.qmetry.qaf.automation.step.CommonStep.verifyText;
-import static com.upraise.steps.StepsLibrary.addindividualobjective;
-import static com.upraise.steps.StepsLibrary.addteamobjective;
-import static com.upraise.steps.StepsLibrary.login;
-
+import static com.upraise.server.steps.StepsLibrary.addindividualobjective;
+import static com.upraise.server.steps.StepsLibrary.addteamobjective;
+import static com.upraise.server.steps.StepsLibrary.login;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
-import org.testng.annotations.Test;
-
+import org.testng.annotations.*;
 import com.qmetry.qaf.automation.testng.Priority;
-import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+import com.qmetry.qaf.automation.util.ExcelUtil;
+import com.qmetry.qaf.automation.testng.Priority;
+import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
+import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider.*;
 
-public class UpServerTest extends WebDriverTestCase {
+public class UpcloudTest extends WebDriverTestCase {
 
-	  @QAFDataProvider(dataFile = "resources/logindata.txt")
+	  @QAFDataProvider(dataFile = "resources/env2/logindata.txt")
 	   @Test(description = "Login test" , groups={"SMOKE"}) @Priority(0)
 		public void upraiselogin(Map <String, String> data){
 	    	new WebDriverTestBase().getDriver().manage().window().maximize();
