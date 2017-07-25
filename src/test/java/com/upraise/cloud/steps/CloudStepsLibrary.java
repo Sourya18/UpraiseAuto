@@ -4,23 +4,26 @@ import static com.qmetry.qaf.automation.step.CommonStep.click;
 import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
 import static com.qmetry.qaf.automation.step.CommonStep.waitForPresent;
 
+import java.util.concurrent.TimeUnit;
+
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.testng.Priority;
+import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 
-public class StepsLibrary {
-	/**
-	 * @param searchTerm
-	 *            : search term to be searched
-	 */
-	@QAFTestStep(description = "Details for login {username} , {password}") @Priority(1) 	
+public class CloudStepsLibrary {
+	
+	@QAFTestStep(description = "Details for login {username} , {password}") 	
 	public static void login(String username,  String password , String Isvalid){
 	sendKeys(username, "login.field");
+	click("next.button");
+	new WebDriverTestBase().getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	sendKeys(password, "password.field");
 	click("login.button");
+	new WebDriverTestBase().getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 }
 
-
-@QAFTestStep(description = "Add Individual Objective {title}") @Priority(2)
+/*
+@QAFTestStep(description = "Add Individual Objective {title}") 
    public static void addindividualobjective(String title){
 	click("upraise.menu");
 	click("menu.Iobj");
@@ -35,7 +38,7 @@ public class StepsLibrary {
 
 }
 
-@QAFTestStep(description = "Add Team Objective {title}") @Priority(3)
+@QAFTestStep(description = "Add Team Objective {title}") 
 public static void addteamobjective(String title){
 	click("upraise.menu");
 	click("menu.tobj");
@@ -50,7 +53,7 @@ public static void addteamobjective(String title){
 	sendKeys(title, "field.objectivetitle");
 	click("button.objsave");
 
-}
+}*/
 
 
 }

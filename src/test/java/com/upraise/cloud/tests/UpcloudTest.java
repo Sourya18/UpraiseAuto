@@ -1,9 +1,7 @@
 package com.upraise.cloud.tests;
 
 import static com.qmetry.qaf.automation.step.CommonStep.verifyText;
-import static com.upraise.server.steps.StepsLibrary.addindividualobjective;
-import static com.upraise.server.steps.StepsLibrary.addteamobjective;
-import static com.upraise.server.steps.StepsLibrary.login;
+import static com.upraise.cloud.steps.CloudStepsLibrary.*;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -18,7 +16,7 @@ import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider.*;
 public class UpcloudTest extends WebDriverTestCase {
 
 	  @QAFDataProvider(dataFile = "resources/env2/logindata.txt")
-	   @Test(description = "Login test" , groups={"SMOKE"}) @Priority(0)
+	   @Test(description = "Login test" , groups={"SMOKE"}) 
 		public void upraiselogin(Map <String, String> data){
 	    	new WebDriverTestBase().getDriver().manage().window().maximize();
 	    	new WebDriverTestBase().getDriver().get("/");
@@ -28,7 +26,7 @@ public class UpcloudTest extends WebDriverTestCase {
 			}
 
 
-	   @Test(description = "Add Individual Objective" , groups={"SMOKE"}) @Priority(1)
+	  /* @Test(description = "Add Individual Objective" , groups={"SMOKE"}) 
 	    public void AddIobjective(){
 		addindividualobjective("Auto I Objective");
 		new WebDriverTestBase().getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -37,11 +35,11 @@ public class UpcloudTest extends WebDriverTestCase {
 	   
 	   
 
-	   @Test(description = "Add Team Objective" , groups={"SMOKE"}) @Priority(2)
+	   @Test(description = "Add Team Objective" , groups={"SMOKE"}) 
 	    public void AddTobjective(){
 		   addteamobjective("Auto T Objective");
 		new WebDriverTestBase().getDriver().manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	    verifyText("message.container", "New objective added successfully. If it is not visible please check your filters.");
-	   }
+	   }*/
 	}
 

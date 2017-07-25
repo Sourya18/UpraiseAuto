@@ -1,2 +1,2 @@
 username,password,isValid,
-admin,Password@123,true
+sourya@mailinator.com,amoeba@123,true

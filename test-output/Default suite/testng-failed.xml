@@ -3,9 +3,9 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.upraise.server.test.UpServerTest">
+      <class name="com.upraise.cloud.tests.UpcloudTest">
         <methods>
-          <include name="AddTobjective"/>
+          <include name="upraiselogin" invocation-numbers="0"/>
           <include name="afterSuit"/>
           <include name="setupMethod"/>
           <include name="setupSuit"/>
@@ -15,7 +15,7 @@
           <include name="setup"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.upraise.server.test.UpServerTest -->
+      </class> <!-- com.upraise.cloud.tests.UpcloudTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
