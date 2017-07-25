@@ -1,0 +1,152 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1463
+    },
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://upraise-cloud.atlassian.net/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5480
+    },
+    {
+      "commandName": "login",
+      "args": [
+        "[sourya@mailinator.com, amoeba@123, null]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=username, using=name}"
+          ],
+          "result": "id: 0.9712878123757049-1",
+          "subLogs": [],
+          "duration": 106
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: username",
+            "{\"id\":\"0.9712878123757049-1\",\"value\":[\"sourya@mailinator.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1323
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='login-submit'], using=xpath}"
+          ],
+          "result": "id: 0.9712878123757049-2",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='login-submit']",
+            "{\"id\":\"0.9712878123757049-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 179
+        },
+        {
+          "commandName": "setTimeout",
+          "args": [
+            "{type=implicit, ms=5000}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "id: 0.9712878123757049-3",
+          "subLogs": [],
+          "duration": 60
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: password",
+            "{\"id\":\"0.9712878123757049-3\",\"value\":[\"amoeba@123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 818
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='login-submit'], using=xpath}"
+          ],
+          "result": "id: 0.9712878123757049-2",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='login-submit']",
+            "{\"id\":\"0.9712878123757049-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 160
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=amoeboids-upraise-qa__upraise-menu, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 5306
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=amoeboids-upraise-qa__upraise-menu, using=id}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 15670
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Details for login {username} , {password}",
+      "type": "TestStepPass",
+      "duration": 2842,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Expected link present : Actual link not present",
+      "type": "Fail",
+      "screenshot": "../img/upraiselogin_1hj8gwcojnls850372.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

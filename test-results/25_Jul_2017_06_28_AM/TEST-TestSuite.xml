@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="45.393" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Repositories\UpraiseAuto"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Repositories\UpraiseAuto"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sourya\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Repositories\workspace1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3893602254649718242.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_60/bin/client;C:/Program Files (x86)/Java/jre1.8.0_60/bin;C:/Program Files (x86)/Java/jre1.8.0_60/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C\Python27\;C:\Python27\Scripts;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Micro;C:\Repositories\play-2.2.2\play-2.2.2;C:\WINDOWS\Syst;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\selenium\chromedriver_win32;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Repositories\gradle-4.0-all\gradle-4.0\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\TestingWhiz Enterprise Edition\plugins\com.cygnet.autotest_5.3.0\libs;C:\Users\Sourya\.dnx\bin;C:\Applications\Atlassian\atlassian-plugin-sdk-5.1.2\bin;C:\Applications\Atlassian\atlassian-plugin-sdk-5.1.2\apache-maven-3.2.1\bin;C:\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;C:\Users\Sourya\AppData\Local\Microsoft\WindowsApps;C:\Users\Sourya\AppData\Roaming\npm;;C:\software\eclipse-jee-neon-3-win32 (1)\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="java.net.preferIPv4Stack" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Sourya"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Sourya"/>
+    <property name="java.class.path" value="/C:/software/eclipse-jee-neon-3-win32 (1)/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Repositories\UpraiseAuto\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.upraise.cloud.tests.UpcloudTest" name="upraiselogin" time="38.072">
+    <failure/>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=10, qaf-Version=2.1, qaf-Build-Time=03-Jan-2017 14:01:00}
+[ConfigurationManager] - Resource dir: C:\Repositories\UpraiseAuto\resources. Found property files to load: 7
+[ConfigurationManager] - Resource dir: C:\Repositories\UpraiseAuto\resources. Found property files to load: 0
+[CSVUtil] - loading csv data file: resources/env2/logindata.txt
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:https://upraise-cloud.atlassian.net/,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;https://upraise-cloud.atlassian.net/&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=https://upraise-cloud.atlassian.net/}] Result: null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;username&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=username, using=name}] Result: id: 0.9712878123757049-1
+[WebDriverCommandLogger] - Executing sendKeysToElement element: By.name: username parameters: {&quot;id&quot;:&quot;0.9712878123757049-1&quot;,&quot;value&quot;:[&quot;sourya@mailinator.com&quot;]}
+[WebDriverCommandLogger] - command: sendKeysToElement[ param-1: By.name: username param-2: {&quot;id&quot;:&quot;0.9712878123757049-1&quot;,&quot;value&quot;:[&quot;sourya@mailinator.com&quot;]}] Result: sendKeysToElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//*[@id=&apos;login-submit&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=.//*[@id=&apos;login-submit&apos;], using=xpath}] Result: id: 0.9712878123757049-2
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: .//*[@id=&apos;login-submit&apos;] parameters: {&quot;id&quot;:&quot;0.9712878123757049-2&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: .//*[@id=&apos;login-submit&apos;] param-2: {&quot;id&quot;:&quot;0.9712878123757049-2&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing setTimeout parameters: {&quot;ms&quot;:5000,&quot;type&quot;:&quot;implicit&quot;}
+[WebDriverCommandLogger] - command: setTimeout[ param-1: {type=implicit, ms=5000}] Result: null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;name&quot;,&quot;value&quot;:&quot;password&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=password, using=name}] Result: id: 0.9712878123757049-3
+[WebDriverCommandLogger] - Executing sendKeysToElement element: By.name: password parameters: {&quot;id&quot;:&quot;0.9712878123757049-3&quot;,&quot;value&quot;:[&quot;amoeba@123&quot;]}
+[WebDriverCommandLogger] - command: sendKeysToElement[ param-1: By.name: password param-2: {&quot;id&quot;:&quot;0.9712878123757049-3&quot;,&quot;value&quot;:[&quot;amoeba@123&quot;]}] Result: sendKeysToElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;.//*[@id=&apos;login-submit&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=.//*[@id=&apos;login-submit&apos;], using=xpath}] Result: id: 0.9712878123757049-2
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: .//*[@id=&apos;login-submit&apos;] parameters: {&quot;id&quot;:&quot;0.9712878123757049-2&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: .//*[@id=&apos;login-submit&apos;] param-2: {&quot;id&quot;:&quot;0.9712878123757049-2&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;amoeboids-upraise-qa__upraise-menu&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=amoeboids-upraise-qa__upraise-menu, using=id}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;id&quot;,&quot;value&quot;:&quot;amoeboids-upraise-qa__upraise-menu&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=amoeboids-upraise-qa__upraise-menu, using=id}] Result: []
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shotupraiselogin_1hj8gwcojnls850372.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 39594
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

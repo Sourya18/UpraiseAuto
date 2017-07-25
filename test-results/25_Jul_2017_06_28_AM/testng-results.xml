@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="fail"><span class="fail-label">F </span>Expected link present : Actual link not present <a href="../img/upraiselogin_1hj8gwcojnls850372.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="UpRaise" duration-ms="41286" started-at="2017-07-25T06:28:34Z" finished-at="2017-07-25T06:29:15Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="UpcloudTest.upraiselogin(java.util.Map)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="upraiselogin" class="com.upraise.cloud.tests.UpcloudTest"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Cloud Test" duration-ms="41286" started-at="2017-07-25T06:28:34Z" finished-at="2017-07-25T06:29:15Z">
+      <class name="com.upraise.cloud.tests.UpcloudTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="setupSuit" is-config="true" duration-ms="94" started-at="2017-07-25T11:58:33Z" finished-at="2017-07-25T11:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="setupTest" is-config="true" duration-ms="0" started-at="2017-07-25T11:58:34Z" finished-at="2017-07-25T11:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="setup" is-config="true" duration-ms="0" started-at="2017-07-25T11:58:34Z" finished-at="2017-07-25T11:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="upraiselogin(java.util.Map)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="upraiselogin" duration-ms="38060" started-at="2017-07-25T11:58:34Z" description="Login test" finished-at="2017-07-25T11:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=amoeba@123, isValid=true, username=sourya@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="fail"><span class="fail-label">F </span>Expected link present : Actual link not present <a href="../img/upraiselogin_1hj8gwcojnls850372.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- upraiselogin -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-25T11:58:34Z" finished-at="2017-07-25T11:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upraise.cloud.tests.UpcloudTest.upraiselogin(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-07-25T11:59:12Z" finished-at="2017-07-25T11:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=upraiselogin status=FAILURE method=UpcloudTest.upraiselogin(java.util.Map)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Details for login {username} , {password}</div><div  class="fail"><span class="fail-label">F </span>Expected link present : Actual link not present <a href="../img/upraiselogin_1hj8gwcojnls850372.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-25T11:59:12Z" finished-at="2017-07-25T11:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="afterTest" is-config="true" duration-ms="3100" started-at="2017-07-25T11:59:12Z" finished-at="2017-07-25T11:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]" name="afterSuit" is-config="true" duration-ms="0" started-at="2017-07-25T11:59:15Z" finished-at="2017-07-25T11:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a82c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.upraise.cloud.tests.UpcloudTest -->
+    </test> <!-- Cloud Test -->
+  </suite> <!-- UpRaise -->
+</testng-results>

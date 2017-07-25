@@ -1,0 +1,33 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "password": "amoeba@123",
+          "isValid": "true",
+          "username": "sourya@mailinator.com"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/env2/logindata.txt",
+        "description": "Login test",
+        "groups": [
+          "SMOKE"
+        ],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "upraiselogin",
+        "sheetName": "",
+        "sign": "UpcloudTest.upraiselogin(java.util.Map)[pri:0, instance:com.upraise.cloud.tests.UpcloudTest@7080dc]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1500964114137,
+      "duration": 38060,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
